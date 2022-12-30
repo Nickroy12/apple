@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,400;1,600&family=Splash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+    overflow-x: hidden;
+}
+section {
+	padding: 26px;
+	height: 33vh;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header .logo img {
+	position: relative;
+	width: 68px;
+}
+header .toggle{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(1.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 10000;
+}
+header .toggle.active{
+    background: url(image/as.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navigation{
+    position:absolute;
+    display: flex;
+    right: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.navigation.active{
+    opacity: 1;
+    visibility: visible; 
+}
+.navigation li{
+    list-style: none;
+}
+.navigation li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+.home h1 {
+	position: relative;
+	left: 46px;
+}
+.home h1 span{
+	font-size: 20px;
+	color: red;
+}
+.home h2 {
+	font-size: 6em;
+}
+.f-menu{
+    background-image: url('image/3.jpeg');
+	background-size: cover;
+	
+	background-position: center;
+}
+#app {
+	width: 142px;
+	position: relative;
+	top: 14px;
+	left: -46px;
+}
+.f-menu .box-2 {
+	color: #fff;
+}
+.f-menu ul {
+	font-size: 1.125rem;
+	margin: 32px -26px;
+	line-height: 36px;
+}
+.mot .box-2 {
+	background: #4f4c4c;
+    height: 436px;
+    color: #fff;
+}
+.mot .box-2 img {
+	width: 123px;
+	position: relative;
+	top: 51px;
+}
+
+.sec h1 {
+    position: relative;
+    left: 46px;
+    color: #fff;
+}
+.bet h1  {
+	text-align: center;
+}
+.bet p {
+	text-align: center;
+}
+.evo .box-1 {
+	background: gray;
+}
+.evo .box-2 {
+	background: gray;
+	/* width: 375px; */
+}
+.vow {
+    background-image: url('image/21.jpeg');
+	background-size: cover;
+	 color: #fff;
+	background-position: center;
+}
+.vow h1 {
+	position: relative;
+	left: 46px;
+}
+.vow h1 span{
+	font-size: 20px;
+	color: red;
+}
+.vow .box-1 {
+	background: #00000047;
+	border-radius: 14px 14px;
+}
+.fotter{
+    text-align: center;
+    color: #fff;
+}
